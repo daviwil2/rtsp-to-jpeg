@@ -1,0 +1,14 @@
+{
+  "log": {
+    "level": 10
+  },
+  "ffmpeg": {
+    "resolution": "1024x576",
+    "quality": 10
+  },
+  "streams": {
+    "boudoir": "rtsp://192.168.0.1:7447/m9rjmzH333Ql7INd",
+    "wineCellar": "rtsp://192.168.0.1:7447/1m4ipKDRjakHmGJA",
+    "homeTheaterRoom": "rtsp://192.168.0.1:7447/iRPCfuce4aOqXjPq"
+  }
+}

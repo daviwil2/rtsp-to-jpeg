@@ -1,0 +1,21 @@
+{
+  "name": "rtsp-to-jpeg",
+  "version": "1.0.0",
+  "description": "Convert frame from RTSP stream and return as a JPEG",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Williamson",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.15",
+    "bunyan-format": "^0.2.1",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "lodash": "^4.17.20",
+    "os-monitor": "^1.0.10",
+    "rtsp-ffmpeg": "^0.0.15"
+  }
+}
