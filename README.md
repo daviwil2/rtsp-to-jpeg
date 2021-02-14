@@ -1,6 +1,8 @@
 # rtsp-to-jpeg
 This little JavaScript app was written to run on node.js on a maxOS server (but should run fine on an Linux or similar) and, using ffmpeg, take a single frame from an RTSP stream and convert it to a .jpeg file and return to the caller of the HTTP GET.
+
 Why does it exist? Because UniFi Protect has the ability to generate RTSP streams from managed cameras on the UniFi Dream Machine PRO or other NVR box, and these can be grabbed and rendered as still images for use as you see fit.
+
 The use case this was developed for was to act as the backend for a Athom Homey flow whereby a press of a doorbell triggers a flow to grab an image using Image Grabber (via HTTP call to this app on my Mac server) and when received sends it on to my phone via a Pushover alert. So, press my doorbell and I get a picture on my phone of who's there. Simples.
 
 Edit config.json to:
