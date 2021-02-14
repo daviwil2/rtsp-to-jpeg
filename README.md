@@ -13,4 +13,4 @@ The URI for the example files would be http://192.168.0.1/wineCellar for example
 
 I use pm2 to run the app automatically on boot.
 
-You can also create virual IP Cams in Homey and specify the URI for on-demand viewing of snapshots (or testing obvs).
+You can also create virtual IP Cams in Homey and specify the URI for on-demand viewing of snapshots (or testing obvs).
